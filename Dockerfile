@@ -6,6 +6,6 @@ WORKDIR /app
 
 COPY target/vg-ms-teacher-0.0.1-SNAPSHOT.jar vg-ms-teacher.jar
 
-EXPOSE 8410
+EXPOSE 8080
 
 ENTRYPOINT ["java", "-jar", "vg-ms-teacher.jar"]
